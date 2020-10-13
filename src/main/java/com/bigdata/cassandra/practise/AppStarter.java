@@ -24,7 +24,7 @@ public class AppStarter {
 	      .append("id uuid PRIMARY KEY, ")
 	      .append("title text,")
 	      .append("subject text);");
-	 
+	 //test
 	    String query = sb.toString();
 	    System.out.println(query);
 	    session.execute(query);
